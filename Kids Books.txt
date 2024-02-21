@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids' Books Catalog</title>
+    <!-- Add CSS link for styling -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Kids' Books Catalog</h1>
+        <!-- Search Bar -->
+        <input type="text" id="search" placeholder="Search...">
+    </header>
+
+    <section class="filters">
+        <!-- Filtering Options -->
+        <label for="age-group">Age Group:</label>
+        <select id="age-group">
+            <option value="infants-toddlers">Infants & Toddlers</option>
+            <option value="preschool">Preschool</option>
+            <option value="elementary-school">Elementary School</option>
+        </select>
+
+        <!-- Add more filtering options as needed -->
+
+        <!-- Sorting Options -->
+        <label for="sort-by">Sort By:</label>
+        <select id="sort-by">
+            <option value="price-asc">Price (Low to High)</option>
+            <option value="price-desc">Price (High to Low)</option>
+            <option value="title-asc">Title (A to Z)</option>
+            <option value="title-desc">Title (Z to A)</option>
+        </select>
+    </section>
+
+    <section class="book-list">
+        <!-- Thumbnail View -->
+        <div class="book-thumbnail">
+            <img src="book-cover.jpg" alt="Book Cover">
+            <h3>Book Title</h3>
+            <p>Author Name</p>
+            <p>Price: $XX.XX</p>
+            <!-- Add more book details -->
+        </div>
+
+        <!-- Repeat the book-thumbnail div for each book -->
+    </section>
+
+    <footer>
+        <!-- Add footer content -->
+    </footer>
+</body>
+</html>

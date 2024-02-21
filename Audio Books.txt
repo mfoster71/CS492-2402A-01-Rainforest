@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+   
+   <title> Audiobooks </title>
+
+  <link rel="stylesheet"
+  href = "Audiobook style.css">
+</head>
+
+<body>
+   <main>
+	
+
+  <header>
+		<h1>AUDIOBOOKS</h1>
+        <!-- Search Bar -->
+        <input type="text" id="search" placeholder="Search...">
+    </header>
+
+    <section class="filters">
+        <!-- Filtering Options -->
+        <label for="author">Author:</label>
+        <select id="author">
+            <option value="ST">Steaven Toolers</option>
+            <option value="PJ">Percy Jak</option>
+            <option value="LM">Lively Manny</option>
+        </select>
+
+        <!-- Add more filtering options as needed -->
+
+        <!-- Sorting Options -->
+        <label for="sort-by">Sort By:</label>
+        <select id="sort-by">
+            <option value="price-asc">Price (Low to High)</option>
+            <option value="price-desc">Price (High to Low)</option>
+            <option value="title-asc">Title (A to Z)</option>
+            <option value="title-desc">Title (Z to A)</option>
+        </select>
+    </section>
+
+    <section class="book-list">
+        <!-- Thumbnail View -->
+        <div class="book-thumbnail">
+            <img src="book-cover.jpg" alt="Book Cover">
+            <h3>Tool Time</h3>
+            <p>Steaven Toolers</p>
+            <p>Price: $15.00</p>
+			<p>Genre: Informative</p>
+            <!-- Add more book details -->
+        </div>
+	    <div class="book-thumbnail">
+            <img src="book-cover.jpg" alt="Book Cover">
+            <h3>Rick Rorie</h3>
+            <p>Percy Jak</p>
+            <p>Price: $30.00</p>
+			<p>Genre: Adventure</p>
+            <!-- Add more book details -->
+        </div>
+		    <div class="book-thumbnail">
+            <img src="book-cover.jpg" alt="Book Cover">
+            <h3>Eat Nachos</h3>
+            <p>Lively Manny</p>
+            <p>Price: $10.00</p>
+			<p>Genre: Comedy</p>
+            <!-- Add more book details -->
+        </div>
+    </section>
+
+	<h3><br>Preview Audiobooks</h3>
+	
+	<audio controls>
+	   <source src="Prvw-audio.mp3 type="audio/mp3">
+	   We are sorry browser does not support this preview.
+	</audio>
+
+   </main>
+
+<footer>
+     <p>&copy; 2023 Publishing Co.</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .about-section {
+            padding: 50px;
+            text-align: center;
+            background-color: #474e5d;
+            color: white;
+        }
+        .container {
+            padding: 0 16px;
+			max-width: 800px;
+            margin: 0 auto;
+			text-align: center;
+        }
+        .title {
+            color: grey;
+        }
+        .button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+        }
+        .button:hover {
+            background-color: #555;
+        }
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        .column {
+            float: left;
+            width: 33.3%;
+            margin-bottom: 16px;
+            padding: 0 8px;
+        }
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin: 8px;
+        }
+		 p {
+            font-size: 16px;
+            line-height: 1.5;
+			word-wrap: break-word;
+        }
+    </style>
+	    <style>
+         body, h1, p {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-image: url("yanoda-82137_640.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+	    color: #FFFFFF;
+	    text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
+             1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+	    white-space: nowrap;
+	    word-spacing: 0px;
+        }
+        .banner {
+            text-align: center;
+            padding: 100px 0;
+        }
+        .banner h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .banner p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #5D782E;
+            color: #FFFFFF;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+    </style>
+<style>
+  nav {
+    background: green;
+    padding: 15px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    display: inline-block;
+    margin-right: 20px;
+    word-wrap: normal;
+  }
+  a {
+    display: block;
+    width: 80px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+  }
+</style>
+</head>
+<nav>
+  <ul>
+    <li><a href="Main Page.html">Home</a></li>
+    <li><a href="#">Search</a></li>
+	<li><a href="Kids Books.html">Kids Books</a></li>
+    <li><a href="Bestsellers.html">Bestsellers</a></li>
+    <li><a href="Audio Books.html">Audio Books</a></li>
+    <li><a href="Contact Us.html">Contact Us</a></li>
+  </ul>
+</nav>
+<body>
+    <div class="about-section">
+        <h1>About Us Page</h1>
+        <p>We are here to provide voices that cannot be heard, dreams in many forms, to take away your breath, and the spread cheer and joy
+		to all. Our company, though small, strives to provide the most possible experience for our customers. Our business started in 2024.</p>
+        <p>Resize the browser window to see that this page is responsive.</p>
+    </div>
+    <h2 style="text-align:center">Our Team</h2>
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <img src="logo" alt="Jane" style="width:100%">
+                <div class="container">
+                    <h2>Jane Doe</h2>
+                    <p class="title">CEO & Founder</p>
+                    <p>Some text that describes the employee.</p>
+                    <p>jane@example.com</p>
+                    <p><button class="button">Contact</button></p>
+                </div>
+            </div>
+        </div>
+        <!-- Add similar columns for other team members -->
+    </div>
+</body>
+</html>
